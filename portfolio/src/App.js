@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/contact" component={Contact} />
             <Route component={Error} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );

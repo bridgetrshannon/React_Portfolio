@@ -1,10 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Card, Button } from "react-bootstrap";
 
 const Portfolio = () => {
   return (
     <div>
       <p>Portfolio</p>
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
       <div class="row transboxPortfolio row-cols-md-3 p-3">
         <div class="card text-center mb-4">
           <Link
@@ -12,7 +24,8 @@ const Portfolio = () => {
             href=" https://bridgetrshannon.github.io/Peckish/"
           />
           <img
-            src="assets/images/peckishlogo.png"
+            src="src/images/peckishlogo.png"
+            // src="./images/peckishlogo.png"
             alt="peckish logo"
             id="peckish-pic"
             class="card-img-top"

@@ -28,11 +28,7 @@ const Contact = () => {
                 Follow @bridgetrshannon
               </a>
             </div>
-            <iframe
-              src="assets/resume.pdf"
-              width="100%"
-              height="500px"
-            ></iframe>
+            <iframe src="resume.pdf" width="100%" height="700px"></iframe>
           </div>
         </div>
       </div>

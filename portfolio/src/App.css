@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, nav {
+  font-family: "Oswald", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.indexBackgroundImg {
+  background-image: url(../images/stars1.jpg);
+  background-size: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.portfolioBackgroundImg {
+  background-image: url(../images/lightbulbs.jpg);
+  background-size: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.contactBackgroundImg {
+  background-image: url(../images/computer.jpg);
+  background-size: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.transboxPortfolio {
+  margin: 150px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.col-md-9 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+}
+
+.col-md-12 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+}
+
+.col-md-4 {
+  padding-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+#prof-pic {
+  height: 250px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#peckish-pic {
+  width: 275px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#audiophyle-pic,
+#burger-pic,
+#readme-pic {
+  width: 275px;
+  height: 90px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#employeetracker-pic,
+#teamprofilegenerator-pic {
+  width: 200px;
+  height: 100px;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+#githubBtn,
+#linkedinBtn {
+  float: left;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

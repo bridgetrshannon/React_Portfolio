@@ -9,6 +9,7 @@ const Contact = () => {
             <div>
               <a
                 class="btn btn-sm btn-outline-primary"
+                target="_blank"
                 href="https://www.linkedin.com/in/bridget-shannon/"
                 role="button"
                 id="linkedinBtn"
@@ -20,6 +21,7 @@ const Contact = () => {
               <a
                 class="github-button"
                 id="githubBtn"
+                target="_blank"
                 href="https://github.com/bridgetrshannon"
                 data-color-scheme="no-preference: light; light: light; dark: dark;"
                 data-size="large"

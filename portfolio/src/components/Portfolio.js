@@ -8,12 +8,9 @@ const Portfolio = () => {
       <p>Portfolio</p>
       <div className="row transboxPortfolio row-cols-md-3 p-3">
         <div className="card text-center mb-4">
-          <Link
-            target="_blank"
-            href=" https://bridgetrshannon.github.io/Peckish/"
-          />
           <div className="card-body">
-            <Button className="mb-3"
+            <Button
+              className="mb-3"
               variant="danger"
               target="_blank"
               href="https://bridgetrshannon.github.io/Peckish/"
@@ -32,22 +29,15 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card text-center mb-4">
-          <Link
-            target="_blank"
-            href="https://audiophyle-music-platform.herokuapp.com/"
-          />
-          <img
-            src="assets/images/audiophyleLogo.png"
-            alt="audiophyle logo"
-            id="audiophyle-pic"
-            className="card-img-top"
-          />
           <div className="card-body">
-            <Link
+            <Button
+              className="mb-3"
+              variant="danger"
               target="_blank"
-              href="https://github.com/bridgetrshannon/Audiophyle"
-            />
-            <h5 className="card-title">Project 2: Audiophyle</h5>
+              href="https://audiophyle-music-platform.herokuapp.com/"
+            >
+              Project 2: Audiophyle
+            </Button>{" "}
             <p className="card-text">
               {" "}
               The Audiophyle application allows users to search for and save
@@ -57,22 +47,15 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card text-center mb-4">
-          <Link
+          <Button
+            className="mb-3"
+            variant="danger"
             target="_blank"
             href="https://the-burger-place-1.herokuapp.com/"
-          />
-          <img
-            src="assets/images/burgerplace.png"
-            alt="burger place"
-            id="burger-pic"
-            className="card-img-top"
-          />
+          >
+            The Burger Place
+          </Button>{" "}
           <div className="card-body">
-            <Link
-              target="_blank"
-              href="https://github.com/bridgetrshannon/Burgers"
-            />
-            <h5 className="card-title">The Burger Place</h5>
             <p className="card-text">
               The Burger Place is an application created using MySQL, Node,
               Express, Handlebars and an ORM. The MVC design pattern is

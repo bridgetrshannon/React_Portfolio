@@ -5,7 +5,6 @@ import { Card, Button } from "react-bootstrap";
 const Portfolio = () => {
   return (
     <div>
-      <p>Portfolio</p>
       <div className="row transboxPortfolio row-cols-md-3 p-3">
         <div className="card text-center mb-4">
           <div className="card-body">
@@ -32,7 +31,7 @@ const Portfolio = () => {
           <div className="card-body">
             <Button
               className="mb-3"
-              variant="danger"
+              variant="success"
               target="_blank"
               href="https://audiophyle-music-platform.herokuapp.com/"
             >
@@ -47,98 +46,87 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="card text-center mb-4">
-          <Button
-            className="mb-3"
-            variant="danger"
-            target="_blank"
-            href="https://the-burger-place-1.herokuapp.com/"
-          >
-            The Burger Place
-          </Button>{" "}
           <div className="card-body">
-            <p className="card-text">
-              The Burger Place is an application created using MySQL, Node,
-              Express, Handlebars and an ORM. The MVC design pattern is
-              utilized. Node and MySQL query and route the data in the
-              application while Handlebars generates the HTML.
-            </p>
+            <Button
+              className="mb-3"
+              variant="warning"
+              target="_blank"
+              href="https://the-burger-place-1.herokuapp.com/"
+            >
+              The Burger Place
+            </Button>{" "}
+            <div className="card-body">
+              <p className="card-text">
+                The Burger Place is an application created using MySQL, Node,
+                Express, Handlebars and an ORM. The MVC design pattern is
+                utilized. Node and MySQL query and route the data in the
+                application while Handlebars generates the HTML.
+              </p>
+            </div>
           </div>
         </div>
+
         <div className="card text-center mb-4">
-          <Link
-            target="_blank"
-            href="https://github.com/bridgetrshannon/Readme_Generator"
-          />
-          <img
-            src="assets/images/readmegenerator.png"
-            alt="readme generator"
-            id="readme-pic"
-            className="card-img-top"
-          />
           <div className="card-body">
-            <Link
+            <Button
+              className="mb-3"
+              variant="secondary"
               target="_blank"
               href="https://github.com/bridgetrshannon/Readme_Generator"
-            />
-            <h5 className="card-title">Readme Generator</h5>
-            <p className="card-text">
-              The Readme Generator is a command-line application that
-              dynamically generates a professional README.md file from a user's
-              input using the Inquirer package.
-            </p>
+            >
+              Readme Generator
+            </Button>{" "}
+            <div className="card-body">
+              <p className="card-text">
+                The Readme Generator is a command-line application that
+                dynamically generates a professional README.md file from a
+                user's input using the Inquirer package.
+              </p>
+            </div>
           </div>
         </div>
+
         <div className="card text-center mb-4">
-          <Link
-            target="_blank"
-            href="https://github.com/bridgetrshannon/Employee_Tracker"
-          />
-          <img
-            src="assets/images/employeetracker.png"
-            alt="employee tracker"
-            id="employeetracker-pic"
-            className="card-img-top"
-          />
           <div className="card-body">
-            <Link
+            <Button
+              className="mb-3"
+              variant="info"
               target="_blank"
               href="https://github.com/bridgetrshannon/Employee_Tracker"
-            />
-            <h5 className="card-title">Employee Tracker</h5>
-            <p className="card-text">
-              {" "}
-              The Employee Tracker application allows the user to view and
-              manage the departments, roles, and employees in their company so
-              they can organize and plan their business. This is a Node app
-              utilizing the command-line.
-            </p>
+            >
+              Employee Tracker
+            </Button>{" "}
+            <div className="card-body">
+              <p className="card-text">
+                The Employee Tracker application allows the user to view and
+                manage the departments, roles, and employees in their company so
+                they can organize and plan their business. This is a Node app
+                utilizing the command-line.
+              </p>
+            </div>
           </div>
         </div>
+
         <div className="card text-center mb-4">
-          <Link
-            target="_blank"
-            href="https://github.com/bridgetrshannon/Team_Profile_Generator"
-          />
-          <img
-            src="assets/images/teamprofilegenerator.png"
-            alt="team profile generator"
-            id="teamprofilegenerator-pic"
-            className="card-img-top"
-          />
           <div className="card-body">
-            <Link
+            <Button
+              className="mb-3"
+              variant="primary"
               target="_blank"
               href="https://github.com/bridgetrshannon/Team_Profile_Generator"
-            />
-            <h5 className="card-title">Team Profile Generator</h5>
-            <p className="card-text">
-              The Team Profile Generator application allows a user to manage
-              information for their team. Using the command-line, a user can
-              input their team's information. When the user has completed
-              building the team, the application will create an HTML file that
-              displays a nicely formatted team roster based on the information
-              provided by the user.
-            </p>
+            >
+              Team Profile Generator
+            </Button>{" "}
+            <div className="card-body">
+              <p className="card-text">
+                The Team Profile Generator application allows a user to manage
+                information for their team. Using the command-line, a user can
+                input their team's information. When the user has completed
+                building the team, the application will create an HTML file that
+                displays a nicely formatted team roster based on the information
+                provided by the user.
+              </p>
+            </div>
           </div>
         </div>
       </div>

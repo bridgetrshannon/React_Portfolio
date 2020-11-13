@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
 
-const Portfolio = () => {
+const Project = () => {
   return (
     <div>
       <div className="row transboxPortfolio row-cols-md-3 p-3">
@@ -134,4 +134,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Project;

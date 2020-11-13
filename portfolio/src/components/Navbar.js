@@ -37,8 +37,8 @@ function Navbar(props) {
                   props.location.pathname === "/about" ? "active" : ""
                 }`}
               >
-                <Link class="nav-link" to="/portfolio">
-                  Portfolio
+                <Link class="nav-link" to="/project">
+                  Project
                 </Link>
               </li>
               <li

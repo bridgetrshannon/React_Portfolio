@@ -1,33 +1,24 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import Home from "./pages/Home";
-import Project from "./pages/Project";
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Error from "./pages/Error";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-// import ProjectCard from "./components/ProjectCard";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import "./App.css";
 
-class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <div>
-          <Navbar />
-          <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/project" component={Project} />
-            <Route path="/contact" component={Contact} />
-            <Route component={Error} />
-          </Switch>
-          <Footer />
-        </div>
-      </BrowserRouter>
-    );
-  }
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <Navigation />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;

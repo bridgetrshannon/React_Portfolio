@@ -11,21 +11,6 @@ h6, nav {
   font-family: "Oswald", sans-serif;
 }
 
-.indexBackgroundImg {
-  background-image: url(../images/stars1.jpg);
-  background-size: 100%;
-}
-
-.portfolioBackgroundImg {
-  background-image: url(../images/lightbulbs.jpg);
-  background-size: 100%;
-}
-
-.contactBackgroundImg {
-  background-image: url(../images/computer.jpg);
-  background-size: 100%;
-}
-
 .transbox {
   margin: 50px;
   background-color: #ffffff;
@@ -69,27 +54,47 @@ h6, nav {
   margin-left: 20px;
 }
 
-#peckish-pic {
-  width: 275px;
-  margin-top: 15px;
+body, h4,
+h5 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h6, nav {
+  font-family: "Oswald", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#projectImg {
+  width: 250px;
+  height: 80px;
   border-radius: 15px;
 }
 
-#audiophyle-pic,
-#burger-pic,
-#readme-pic {
-  width: 275px;
-  height: 90px;
-  margin-top: 15px;
-  border-radius: 15px;
-}
-
-#employeetracker-pic,
-#teamprofilegenerator-pic {
-  width: 200px;
-  height: 100px;
-  margin-top: 15px;
-  border-radius: 15px;
+.cardBtn {
+  margin-left:130px;
+  margin-right:130px;
 }
 
 #githubBtn,

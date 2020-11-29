@@ -1,10 +1,9 @@
 body, h1,
-h2,
 h3, h4, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-h5, nav {
+h2, h5, nav {
   font-family: "Oswald", sans-serif;
 }
 
@@ -16,14 +15,6 @@ h5, nav {
   opacity: 0.9;
   border-radius: 25px;
 }
-
-/* .transboxAbout {
-  margin: 150px;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  opacity: 0.9;
-  border-radius: 25px;
-} */
 
 .col-md-9 {
   padding-top: 20px;
@@ -45,19 +36,8 @@ h5, nav {
   margin-bottom: 100px;
 }
 
-/* .App {
+#headerCenter {
   text-align: center;
-} */
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 #projectImg {

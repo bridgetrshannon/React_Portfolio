@@ -5,10 +5,10 @@ import "../App.css";
 const CardContainer = () => {
   return (
     <div>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-9 transbox bg-white">
-            <h2>Meet the Developer</h2>
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-9 transbox bg-white">
+            <h2 id="headerCenter">Meet the Developer</h2>
             <Image
               src="./images/bridgetpic.jpg"
               alt="portfolio picture"

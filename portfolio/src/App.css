@@ -1,31 +1,29 @@
-body {
+body, h1,
+h2,
+h3, h4, h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6, nav {
+h5, nav {
   font-family: "Oswald", sans-serif;
 }
 
 .transbox {
-  margin: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
   opacity: 0.9;
   border-radius: 25px;
 }
 
-.transboxPortfolio {
+/* .transboxAbout {
   margin: 150px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
   opacity: 0.9;
   border-radius: 25px;
-}
+} */
 
 .col-md-9 {
   padding-top: 20px;
@@ -47,33 +45,9 @@ h6, nav {
   margin-bottom: 100px;
 }
 
-#prof-pic {
-  height: 250px;
-  float: left;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-body, h4,
-h5 {
-  font-family: "Open Sans", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h6, nav {
-  font-family: "Oswald", sans-serif;
-}
-
-.App {
+/* .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+} */
 
 .App-header {
   background-color: #282c34;

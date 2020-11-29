@@ -8,7 +8,7 @@ const CardContainer = () => {
     <div>
       <br />
       <Container fluid="md" className="text-center">
-        <Row>
+        <Row className="ml-2 mr-2">
           <Col>
             <ProjectCard
               image="../images/peckishlogo.png"
@@ -32,7 +32,7 @@ const CardContainer = () => {
             />
           </Col>
         </Row>
-        <Row>
+        <Row className="ml-2 mr-2">
           <Col>
             <ProjectCard
               image="../images/burgerplace.png"
@@ -57,7 +57,7 @@ const CardContainer = () => {
             />
           </Col>
         </Row>
-        <Row>
+        <Row className="ml-2 mr-2">
           <Col>
             <ProjectCard
               image="../images/employeetracker.png"

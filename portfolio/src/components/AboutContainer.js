@@ -28,13 +28,14 @@ const CardContainer = () => {
               {" "}
               With previous experience as an educator, Bridget is ready to bring
               problem solving skills and a creative mindset to developing web
-              applications. Their most recent project was a music search
-              application, Audiophyle. On a team of four developers, they
-              created an application that allows users to search for and save
-              their favorite musical artists. This app uses MySQL, JavaScript,
-              Node.js, Express, Bootstrap, and TheAudioDB. Bridget is looking
-              forward to using their skills as part of a socially-conscious,
-              quality-driven team to build better web experiences for all users.{" "}
+              applications. Their most recent project was a volunteer search
+              application, Assist. On a team with another developer, they
+              created an application that allows users to search for, save, and
+              create volunteer opportunities. This app uses React.js,
+              JavaScript, MongoDB, MDBootstrap, and Charity Navigator API.
+              Bridget is looking forward to using their skills as part of a
+              socially-conscious, quality-driven team to build better web
+              experiences for all users.{" "}
             </p>
             <br></br>
           </div>

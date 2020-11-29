@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "../components/ProjectCard";
+import PortfolioCard from "../components/PortfolioCard";
 import "../App.css";
 
 const CardContainer = () => {
@@ -10,7 +10,7 @@ const CardContainer = () => {
       <Container fluid="md" className="text-center">
         <Row className="ml-2 mr-2">
           <Col>
-            <ProjectCard
+            <PortfolioCard
               image="../images/peckishlogo.png"
               description="The Peckish application helps users search for and discover new
               and exciting food and drink recipes without having to purchase a
@@ -21,7 +21,7 @@ const CardContainer = () => {
             />
           </Col>
           <Col>
-            <ProjectCard
+            <PortfolioCard
               image="../images/audiophylelogo.png"
               description=" The Audiophyle application allows users to search for and save
               their favorite musical artists. This app uses MySQL, JavaScript,
@@ -34,7 +34,7 @@ const CardContainer = () => {
         </Row>
         <Row className="ml-2 mr-2">
           <Col>
-            <ProjectCard
+            <PortfolioCard
               image="../images/burgerplace.png"
               description="The Burger Place is an application created using MySQL, Node,
               Express, Handlebars and an ORM. The MVC design pattern is
@@ -46,7 +46,7 @@ const CardContainer = () => {
             />
           </Col>
           <Col>
-            <ProjectCard
+            <PortfolioCard
               image="../images/readmegenerator.png"
               description="The Readme Generator is a command-line application that
               dynamically generates a professional README.md file from a
@@ -59,7 +59,7 @@ const CardContainer = () => {
         </Row>
         <Row className="ml-2 mr-2">
           <Col>
-            <ProjectCard
+            <PortfolioCard
               image="../images/employeetracker.png"
               description="The Employee Tracker application allows the user to view and
               manage the departments, roles, and employees in their company so
@@ -71,7 +71,7 @@ const CardContainer = () => {
             />
           </Col>
           <Col>
-            <ProjectCard
+            <PortfolioCard
               image="../images/teamprofilegenerator.png"
               description="The Team Profile Generator application allows a user to manage
               information for their team. Using the command-line, a user can

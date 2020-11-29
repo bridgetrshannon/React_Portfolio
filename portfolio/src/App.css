@@ -51,6 +51,10 @@ h2, h5, nav {
   margin-right:130px;
 }
 
+#profImg {
+border-radius: 40px;
+}
+
 #githubBtn,
 #linkedinBtn {
   float: left;

@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import "../App.css";
 
-const CardContainer = () => {
+const AboutContainer = () => {
   return (
     <div>
       <div className="container mt-5">
@@ -14,10 +14,11 @@ const CardContainer = () => {
               alt="portfolio picture"
               height="250px"
               className="float-left mr-3"
+              id="profImg"
             />
             <br />
             <p>
-              Bridget is a full-stack web developer leveraging music education
+              Bridget is a full stack web developer leveraging music education
               background to build a more inviting and accessible user experience
               on the web. They recently earned a certificate in full stack
               development from the University of Central Florida, with newly
@@ -45,4 +46,4 @@ const CardContainer = () => {
   );
 };
 
-export default CardContainer;
+export default AboutContainer;

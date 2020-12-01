@@ -4,19 +4,21 @@ import "../App.css";
 
 const AboutContainer = () => {
   return (
-    <div>
-      <div className="container mt-5">
+    <body className="aboutImg">
+      <div className="container">
         <div className="row">
-          <div className="col-md-9 transbox bg-white">
+          <br />
+          <br />
+          <br />
+          <div className="col-md-9 transbox aboutText mt-5">
             <h2 id="headerCenter">Meet the Developer</h2>
             <Image
-              src="./images/bridgetpic.jpg"
+              src="./images/bridgetpic.png"
               alt="portfolio picture"
-              height="250px"
-              className="float-left mr-3"
+              height="200px"
+              className="float-left mr-3 mt-2 mb-1"
               id="profImg"
             />
-            <br />
             <p>
               Bridget is a full stack web developer leveraging music education
               background to build a more inviting and accessible user experience
@@ -38,11 +40,11 @@ const AboutContainer = () => {
               socially-conscious, quality-driven team to build better web
               experiences for all users.{" "}
             </p>
-            <br></br>
           </div>
+          <br />
         </div>
       </div>
-    </div>
+    </body>
   );
 };
 

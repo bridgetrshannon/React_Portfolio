@@ -2,21 +2,29 @@ import React from "react";
 
 const Home = () => {
   return (
-    <body className="backgroundImg">
+    <body className="homeImg">
       <div className="container">
         <div className="row">
-          <div className="col-md-12 transboxHome text-center mt-5">
+          <div className="col-md-4"></div>
+          <div className="col-md-4 text-center mt-5">
             <br />
-            <h2 className="mt-5">Bridget Shannon</h2>
-            <h2 className="mb-5">Full Stack Web Developer</h2>
+            <br />
+            <div className="homeText">
+              <h2>Bridget Shannon</h2>
+              <h2>Full Stack Web Developer</h2>
+            </div>
+            <br />
             <br />
           </div>
+          <div className="col-md-4"></div>
         </div>
         <div className="row">
-          <div className="col-md-12 transboxHome text-center"></div>
+          <div className="col-md-12"></div>
         </div>
         <div className="row">
-          <div className="col-md-12 transboxHome text-center">
+          <div className="col-md-12">
+            <br />
+            <br />
             <br />
           </div>
         </div>

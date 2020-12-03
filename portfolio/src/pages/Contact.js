@@ -2,10 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
-      <div class="container mt-5">
+    <body className="contactImg">
+      <div class="container">
         <div class="row">
-          <div class="col-md-9 transbox bg-white">
+          <div class="col-md-9 transbox contactText mt-5">
             <div>
               <a
                 class="btn btn-sm btn-outline-primary"
@@ -30,11 +30,15 @@ const Contact = () => {
                 Follow @bridgetrshannon
               </a>
             </div>
-            <iframe src="resume.pdf" width="100%" height="700px"></iframe>
+            <iframe
+              src="./public/resume.pdf"
+              width="100%"
+              height="700px"
+            ></iframe>
           </div>
         </div>
       </div>
-    </div>
+    </body>
   );
 };
 

@@ -67,6 +67,14 @@ h2, h5, nav {
   border-radius: 20px;
 }
 
+.contactText {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  padding:2%;
+  border-radius: 20px;
+}
+
 .col-md-9 {
   padding-top: 20px;
   padding-bottom: 20px;

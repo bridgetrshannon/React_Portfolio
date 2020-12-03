@@ -5,14 +5,14 @@ import "../App.css";
 function PortfolioCard(props) {
   return (
     <div className="portfolio">
-      <Card className="text-center p-3">
+      <Card className="text-center p-3 portfolioText">
         <div className="portfolio-image mb-3">
           <img src={props.image} alt="Portfolio" id="portfolioImg" />
         </div>
         <p className="portfolio-description mb-3">{props.description}</p>
         <Button
           className=" cardBtn"
-          variant="outline-dark"
+          variant="outline-light"
           target="_blank"
           href={props.repoOrDeploy}
           rounded

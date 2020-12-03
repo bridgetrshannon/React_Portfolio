@@ -4,7 +4,7 @@ import "../App.css";
 
 function Portfolio(props) {
   return (
-    <div className="mt-5">
+    <div>
       <CardContainer />
     </div>
   );

@@ -15,7 +15,21 @@ h2, h5, nav {
 }
 
 .aboutImg {
-  background-image: url(./images/computer2.jpg);
+  background-image: url(./images/stars.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolioImg {
+  background-image: url(./images/lightbulbs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactImg {
+  background-image: url(./images/computer3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,6 +52,14 @@ h2, h5, nav {
 }
 
 .aboutText {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  padding:2%;
+  border-radius: 20px;
+}
+
+.portfolioText {
   background-color: black;
   color: white;
   opacity: 0.9;

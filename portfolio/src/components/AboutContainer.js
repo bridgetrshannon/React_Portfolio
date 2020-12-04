@@ -28,7 +28,7 @@ const AboutContainer = () => {
               design.{" "}
             </p>
             <p>
-              {" "}
+            
               With previous experience as an educator, Bridget is ready to bring
               problem solving skills and a creative mindset to developing web
               applications. Their most recent project was a volunteer search
